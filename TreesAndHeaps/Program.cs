@@ -27,8 +27,10 @@ class Program
             
             root = Insert(root, name, salary);
         }
+        
+        Console.WriteLine("Complete!");
+        InOrderTraversal(root);
     }
-
     static EmployeeTree Insert(EmployeeTree node, string name, int salary)
     {
         if (node == null)
@@ -47,5 +49,15 @@ class Program
         } 
         
         return node;
+    }
+
+    static void InOrderTraversal(EmployeeTree tree)
+    {
+        if (tree != null)
+        {
+            InOrderTraversal(tree.Left);
+            Console.WriteLine($"Name: {tree.Name}, Salary: {tree.Salary}");
+            InOrderTraversal(tree.Right);
+        }
     }
 }
