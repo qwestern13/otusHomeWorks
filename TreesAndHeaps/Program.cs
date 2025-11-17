@@ -7,7 +7,7 @@ class Program
         EmployeeTree root = null;
         string name;
         int salary;
-
+        bool done = false;
         while (true)
         {
             
@@ -15,9 +15,53 @@ class Program
             name = Console.ReadLine();
             if (string.IsNullOrEmpty(name))
             {
-                break;
-            }
+                Console.WriteLine("Готово!");
+                InOrderTraversal(root);
+                while (true)
+                {
+                    Console.WriteLine("Введите зарплату для поиска");
+                    if (!int.TryParse(Console.ReadLine(), out salary))
+                    {
+                        Console.WriteLine("Некорректный ввод");
+                        continue;
+                    }
             
+                    EmployeeTree found = FindBySalary(root, salary);
+            
+                    if (found != null)
+                    {
+                        Console.WriteLine($"Найден: {found.Name} - {found.Salary}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Такой сотрудник не найден");
+                    }
+            
+                    Console.WriteLine("Введите 0 для ввода новых сотрудников или 1 для повторного поиска:");
+                    string choice = Console.ReadLine();
+                    if (choice == "0")
+                    {
+                        done = true;
+                        break;
+                    }
+                    else if (choice == "1")
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Некорректный ввод. Допускается только 0 или 1");
+                    }
+                }
+            }
+
+            if (done)
+            {
+                done = false;
+                root = null;
+                continue;
+            }
+
             Console.Write("Введите зарплату: ");
             if (!int.TryParse(Console.ReadLine(), out salary))
             {
@@ -26,45 +70,6 @@ class Program
             }
             
             root = Insert(root, name, salary);
-        }
-        
-        Console.WriteLine("Готово!");
-        InOrderTraversal(root);
-
-        while (true)
-        {
-            Console.WriteLine("Введите зарплату для поиска");
-            if (!int.TryParse(Console.ReadLine(), out salary))
-            {
-                Console.WriteLine("Некорректный ввод");
-                continue;
-            }
-            
-            EmployeeTree found = FindBySalary(root, salary);
-            
-            if (found != null)
-            {
-                Console.WriteLine($"Найден: {found.Name} - {found.Salary}");
-            }
-            else
-            {
-                Console.WriteLine("Такой сотрудник не найден");
-            }
-            
-            Console.WriteLine("Введите 0 для ввода новых сотрудников или 1 для повторного поиска:");
-            string choice = Console.ReadLine();
-            if (choice == "0")
-            {
-                break;
-            }
-            else if (choice == "1")
-            {
-                continue;
-            }
-            else
-            {
-                Console.WriteLine("Некорректный ввод. Допускается только 0 или 1");
-            }
         }
         
     }
