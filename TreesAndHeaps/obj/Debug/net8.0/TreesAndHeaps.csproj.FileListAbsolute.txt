@@ -1,0 +1,15 @@
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\bin\Debug\net8.0\TreesAndHeaps.exe
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\bin\Debug\net8.0\TreesAndHeaps.deps.json
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\bin\Debug\net8.0\TreesAndHeaps.runtimeconfig.json
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\bin\Debug\net8.0\TreesAndHeaps.dll
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\bin\Debug\net8.0\TreesAndHeaps.pdb
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\TreesAndHeaps.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\TreesAndHeaps.AssemblyInfoInputs.cache
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\TreesAndHeaps.AssemblyInfo.cs
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\TreesAndHeaps.csproj.CoreCompileInputs.cache
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\TreesAndHeaps.sourcelink.json
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\TreesAndHeaps.dll
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\refint\TreesAndHeaps.dll
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\TreesAndHeaps.pdb
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\TreesAndHeaps.genruntimeconfig.cache
+D:\c#\otus\homeworks\TreesAndHeaps\TreesAndHeaps\obj\Debug\net8.0\ref\TreesAndHeaps.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TreesAndHeaps")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27c75817b99b48ba26da45bd0fa9bdcc79d529b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5630c33f5348153e52bbbecf8e005db3583e509")]
 [assembly: System.Reflection.AssemblyProductAttribute("TreesAndHeaps")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TreesAndHeaps")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
